@@ -5,23 +5,23 @@ const Portfolio = () => {
     return (
         <>
             <div className="my-4 py-4" id='portfolio'>
-                <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Products</h2>
+                <h2 className="my-2 text-center text-3xl text-[#7cb9be] uppercase font-bold">Products</h2>
                 <div className='flex justify-center'>
-                    <div className='w-24 border-b-4 border-blue-900 mb-8'></div>
+                    <div className='w-24 border-b-4 border-[#7cb9be] mb-8'></div>
                 </div>
 
                 <div className="px-4" data-aos="fade-down" data-aos-delay="600">
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">                            
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
+                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-600 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Business Management System</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-14 h-12 text-[#5c999e]">Registrar System for Amhara Police College</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business.
-                                    With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business.
-                                    All data is stored in the cloud and as such it is easily accessible from all devices and from any location.
+
+                                <span className='font-bold'>Since 2013</span>, I have designed and implemented a registrar system that has been successfully operational for over a decade, transforming the way student data is managed and accessed, 
+                                ensuring efficiency, accuracy, and ease of use.
                                 </p>
                                 <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                    <Link to="/get-demo" className="text-white bg-[#7cb9be] hover:bg-[#a1ebf2] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
@@ -29,16 +29,14 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-600 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">School Management Portal</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-14 h-12 text-[#5c999e]">Examiners Placement Management System</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our all encompassing School Management Portal is the only solution needed for any institution.
-                                    The School Management Portal (SMP) is a tool that can help educational institutions of all kinds manage their administrative tasks, automate processes, and streamline communication between teachers, students, parents, and administrators. 
-                                    The software can be used to manage all aspects of school operations, including student enrollment, attendance, grades, schedules, and more.
-                                </p>
+                                <span className='font-bold'>Since 2015</span>, I have developed a comprehensive system to streamline examiner placement across various regions, including <span className='font-bold'>Debre Markos, Bahir Dar, Dessie, Gondar, Debre Birhan, and Woldia.</span> 
+                                This system optimizes resource allocation while ensuring fairness, enhancing the efficiency and transparency of the placement process across multiple zones.</p>
                                 <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                    <Link to="/get-demo" className="text-white bg-[#7cb9be] hover:bg-[#aef8ff] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
@@ -57,15 +55,15 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-600 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Payroll Management System</h4>
+                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-14 h-12 text-[#5c999e]">Learning Management System (LMS) for Amhara Education Bureau</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    The Payroll Management System automates the process of employee payments for businesses and organizations of different sizes. It helps to ensure that your employees get paid accurately and on time, while also reducing the time and effort required to manage payroll manually, with this system in place, you enjoy benefits such as: 
-                                    increased accuracy in employee payments. It can also integrate into an existing management system through well-structured APIs.
-                                </p>
+                                In 2022, I developed a scalable Learning Management System (LMS) using Laravel and Visual Studio Code. 
+                                This platform supports <span className='font-bold'>online learning, exams, and resource sharing</span>, offering vital tools that empower both teachers and students in the digital education space.
+</p>
                                 <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                    <Link to="/get-demo" className="text-white bg-[#7cb9be] hover:bg-[#aef8ff] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
@@ -73,15 +71,15 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-600 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Event Management System</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-14 h-12 text-[#5c999e]">Student Information Management System (SIMS) at Debre Markos University</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our event management system helps to manage different types of events, whether weddings, burials or any kind of event. With an easily customizable menu, you get to define your user experience and make your event fully customizable and memorable.
+                                    Our event management system helps to manage different types of <span className='font-bold'>events , whether weddings, burials or any kind of event.</span> With an easily customizable menu, you get to define your user experience and make your event fully customizable and memorable.
                                     With use cases already recorded for quite a number of events, we can assure you of a stress-less event mangement platform.
                                 </p>
                                 <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                    <Link to="/get-demo" className="text-white bg-[#7cb9be] hover:bg-[#9ce5ec] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>

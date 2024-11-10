@@ -1,5 +1,6 @@
 import React from 'react';
-import img from '../images/Web-developer.svg';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+// import img from '../images/Web-developer.svg';
 import { Link } from 'react-router-dom';
 
 const Intro = () => {
@@ -9,7 +10,14 @@ const Intro = () => {
 
                     <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                            <img alt="card img" className="rounded-t float-right" src={img} />
+                            {/* <img alt="card img" className="rounded-t float-right" src={img} /> */}
+                            <DotLottieReact
+                           
+
+      src="https://lottie.host/f58d863b-9a37-47c4-9a5c-ee3f5791ddf3/BFEY6HlARd.json"
+      loop
+      autoplay
+    />
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
