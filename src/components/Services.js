@@ -4,10 +4,10 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
-import img from '../images/web.svg'; 
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
-import img4 from '../images/consultation.svg';
+import img from '../images/MesratGigEconomy.jpeg'; 
+import img2 from '../images/ReactJs.jpeg';
+import img3 from '../images/PostmanApI.jpeg';
+// import img4 from '../images/consultation.svg';
 import database from '../images/database.svg';
 import placehold from '../images/PostmanApI.jpeg';
 const Services = () => {
@@ -16,7 +16,7 @@ const Services = () => {
        
         <div id="services" className="bg-gray-100 py-12 lg:my-28" >
             <section data-aos="zoom-in-down">
-                    <div className="my-4 py-4 ">
+                    {/* <div className="my-4 py-4 ">
                         <h2 className="my-2 text-center text-3xl text-[#eda2bf] uppercase font-bold">services</h2>
                         
                         <div className='flex justify-center'>
@@ -77,13 +77,13 @@ const Services = () => {
                                     </div>                               
                             </div>                    
                         </div>
-                    </div>
+                    </div> */}
             </section>
 <div>
-            <section className='bg-[#f6e3ea] text-center lg:mt-12 lg:py-20'>
+            <section className='bg-[#ffeff5] text-center lg:mt-12 lg:py-20'>
                 <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6 lg:mt-15 lg:pt-25">
                 <h1 className="text-[#eda2bf] lg:mt-15 font-black text-4xl lg:text-center"> Certifications & Training </h1>
-                <h2 className='text-gray-600 lg:mb-15 font-semibold text-2xl lg:text-center'>Alongside my experience, I hold several certifications and have undergone training to strengthen my technical skills, including</h2>
+                <h2 className='text-gray-600 lg:mb-15 font-semibold text-2xl lg:text-center'> I hold several certifications and have undergone online training to strengthen my technical skills, including</h2>
                 <Swiper
          modules={[Autoplay, EffectFade]} // Include Autoplay and Fade effect modules
         //  spaceBetween={30} // Space between slides
@@ -91,38 +91,38 @@ const Services = () => {
          autoplay={{ delay: 2000, disableOnInteraction: false }} // Autoplay every 2 seconds
          effect="fade" // Apply the fade transition effect
          fadeEffect={{ crossFade: true }} // Smooth cross-fade transition
-         speed={1000} // Speed of the transition (1 second)
+         speed={1500} // Speed of the transition (1 second)
       >
-                    <div className="flex flex-col-reverse lg:flex-row py-8 lg:justify-center lg:items-center  lg:pt-22 lg:text-center" data-aos="zoom-out">
-                        <div className="lg:w-1/2 flex flex-col lg:mx-4 lg:my-4 ">
+                    <div className="flex flex-col-reverse lg:flex-row py-8 lg:justify-center   lg:pt-22" data-aos="zoom-out">
+                        <div className="lg:w-1/2 flex flex-col lg:mx-4 ">
                         <SwiperSlide>
-                            <div className='text-[#eda2bf] my-4 lg:pl-50 '>
-                                <img alt="card img" className="lg:w-1/2 w-1/2 max-w-sm rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
+                            <div className='text-[#eda2bf] my-4r'>
+                                <img alt="card img" className="lg:w-full w-Full m-20 rounded-t group-hover:scale-[1.15] transition duration-1500 ease-in-out" src={img} />
                             </div>
-                            <h3 className="text-3xl  text-[#eda2bf] font-black"> Java Programming certification </h3>                            
+                            <h3 className="text-3xl  text-[#eda2bf] font-black"> Mesrat Gig Economy </h3>                            
                             </SwiperSlide>
                         </div>
                        
                        
                         <div className="lg:w-1/2 flex flex-col lg:mx-4">
                         <SwiperSlide>
-                            <div className='text-[#eda2bf] my-4'>
-                                <img alt="card img" className="lg:w-1/2 w-full rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
+                            <div className='text-[#eda2bf] my-4r'>
+                                <img alt="card img" className="lg:w-full w-full m-20 rounded-t group-hover:scale-[1.15] transition duration-1500 ease-in-out" src={img2} />
                             </div>
-                            <h3 className="text-3xl  text-[#eda2bf] font-black ">Oracle Database Management Certifications</h3>                            
+                            <h3 className="text-3xl  text-[#eda2bf] font-black "><a href="https://verify.mygreatlearning.com/verify/EQIUZNRC" >👉Great Learning ReactJs</a></h3>                            
                             </SwiperSlide>
                         </div>
 
                         <div className="lg:w-1/2 flex flex-col lg:mx-4">
                         <SwiperSlide>
                             <div className='text-[#eda2bf] my-4r'>
-                                <img alt="card img" className="lg:w-1/2 w-full rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
+                                <img alt="card img" className="lg:w-full lg:h-1/3 w-1/2 m-20 rounded-t group-hover:scale-[1.05] transition duration-1500 ease-in-out" src={img3} />
                             </div>
-                            <h3 className="text-3xl  text-[#eda2bf] font-black">Recognition Certificates for the DMU Registrar System</h3>                            
+                            <h3 className="text-xl  text-[#eda2bf] font-black"> <a href="https://api.badgr.io/public/assertions/qxRAxpm2RnKJybntSsvvOQ?identity__email=hilinamulugeta1557@gmail.com" >👉Postman API</a></h3>                            
                             </SwiperSlide>
                         </div>
 
-                        <div className="lg:w-1/2 flex flex-col lg:mx-4">
+                        {/* <div className="lg:w-1/2 flex flex-col lg:mx-4">
                         <SwiperSlide>
                             <div className='text-[#eda2bf] my-4'>
                                 <img alt="card img" className="lg:w-1/2 w-full rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
@@ -138,7 +138,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-[#eda2bf] font-black">MIT to stay current with industry standards and innovations</h3>                            
                             </SwiperSlide>
-                        </div>
+                        </div> */}
                     </div>
                     </Swiper>
                 </div>

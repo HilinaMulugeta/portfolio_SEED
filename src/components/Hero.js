@@ -2,7 +2,7 @@ import React from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-// import heroImg from '../images/Hero.jpg';
+import crop1 from '../images/crop1.jpg';
 {/* <canvas id="dotlottie-canvas" style="width: 300px; height: 300px;"></canvas> */}
 
 const Hero = () => {
@@ -14,20 +14,29 @@ const Hero = () => {
                 </div>
                 
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-14  p-2 md:p-12 h-full" data-aos="zoom-in">
+                
+                <div className="flex lg:justify-center w-full lg:w-full" data-aos="fade-up" data-aos-delay="700">
+                        
 
-                    <div id='hero' className="flex flex-col lg:flex-row lg:mx-4 lg:my-28 py-18 justify-center text-center lg:text-left">
-                        <div className="lg:w-full flex flex-col " data-aos="zoom-in" data-aos-delay="200">
+                    <div id='hero' className="flex flex-col lg:flex-row lg:mx-4 lg:my-28 py-18 justify-center text-center lg:text-center">
+
+                    
+
+                        <div className="lg:w-1/2 flex flex-col " data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-2xl text-xl font-bold text-gray-500">                            
                             Welcome!</h1>
                             <h1 className="mb-5 md:text-3xl text-2xl font-bold text-[#eda2bf]">
-                            I’m Hilina Mulugeta, a seasoned Frontend developer with a hands on experience. </h1>
+                            I’m Hilina Mulugeta, <span className='text-center lg:text-center'>
+                            <img alt="card img" className="p-20 lg:w-full w-Full  " src={crop1} />
+
+                                </span> a Frontend developer with a hands on experience. </h1>
                             
                             <div className="text-lg font-semibold tracking-tight mb-5 text-gray-500">
                             My expertise covers frontend web development, Agile methodology (as a Scrum master) by using modern technologies like React.Js, Vue.Js, Next.js and Jira. 
                             Explore to learn more about my journey, skills, and the portfolios I've worked on.                          
                                 </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                                <Link to="/contact" className="text-white bg-[#eda2bf] hover:bg-[#fae1ea] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                                <Link to="/contact" className="text-white bg-[#b54a73] hover:bg-[#fae1ea] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
                                     <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                 </Link>
@@ -41,14 +50,14 @@ const Hero = () => {
                                 </a> */}
                             </div>
                         </div>
-                        {/* HERO IMAGE  */}              
-                        <div className="flex lg:justify-center w-full lg:w-full" data-aos="fade-up" data-aos-delay="700">
-                        <DotLottieReact
-                         src="https://lottie.host/d6aa5845-56a4-47e0-86b1-593a4b25c259/vLaBjv3Oxg.json"
+                        {/* HERO IMAGE  */} 
+                        {/* <DotLottieReact
+                         src="https://lottie.host/dc306ebb-735f-48d6-a321-0bf56853a75a/QlIC1dGkZi.lottie"
                          loop
                          autoplay
-                        />
+                        /> */}
                      </div>
+                                              
                     </div>
                 </div>
             </div>
