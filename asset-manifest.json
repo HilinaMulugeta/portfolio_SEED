@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.46747dac.css",
+    "main.js": "/portifolio/static/js/main.a4881541.js",
+    "static/media/crop1.jpg": "/portifolio/static/media/crop1.f6e6e882fb3b396d8263.jpg",
+    "static/media/MesratGigEconomy.jpeg": "/portifolio/static/media/MesratGigEconomy.396e0563ebc9d4d2de42.jpeg",
+    "static/media/PostmanApI.jpeg": "/portifolio/static/media/PostmanApI.f87514602ac17c67dab4.jpeg",
+    "static/media/REACT.png": "/portifolio/static/media/REACT.2eb9cb7c01401303e0f0.png",
+    "static/media/database.svg": "/portifolio/static/media/database.a5b359876c704e681c76994402be5a78.svg",
+    "static/media/slick.svg": "/portifolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portifolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portifolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portifolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portifolio/index.html",
+    "static/media/hero-bg.svg": "/portifolio/static/media/hero-bg.b085a03c460db294e222.svg",
+    "main.46747dac.css.map": "/portifolio/static/css/main.46747dac.css.map",
+    "main.a4881541.js.map": "/portifolio/static/js/main.a4881541.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46747dac.css",
+    "static/js/main.a4881541.js"
+  ]
+}
