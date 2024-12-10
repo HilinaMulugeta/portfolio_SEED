@@ -10,7 +10,7 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
+// import DemoProduct from './pages/DemoProduct';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Hilina Mulugeta | Frontend website developer");
 
   return (
     <>
@@ -38,8 +38,8 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            {/* <Route path="/contact" element={<Contact />} /> */}
+            {/* <Route path="/get-demo" element={<DemoProduct />} />  */}
           </Routes>
         </ScrollToTop>
       </Router>

@@ -6,6 +6,10 @@ import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
+import ScrollToTop from '../components/ScrollToTop';
+import Contact from './Contact';
+
+
 
 
 const Home = () => {
@@ -13,10 +17,12 @@ const Home = () => {
         <>
             <Hero />
             <Intro />
-            <Services />
+            <Services />          
             <Portfolio />
             <Clients />
+            <ScrollToTop /> 
             <Cta/>
+            <Contact/>
             <Footer />
         </>
 
