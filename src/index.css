@@ -24,3 +24,40 @@ body {
 }
 
 
+/* Dark Theme */
+body.dark {
+  background-color: #1a202c; /* Dark mode background */
+  color: #e2e8f0; /* Light text for dark mode */
+}
+
+header.dark {
+  background-color: #2d3748; /* Dark header background */
+  color: #e2e8f0; /* Light text */
+}
+
+button {
+  background-color: #e2e8f0;
+  color: #1a202c;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.dark {
+  background-color: #4a5568;
+  color: #e2e8f0;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggler:hover .icon {
+  transform: scale(1.1);
+}
+
+
+

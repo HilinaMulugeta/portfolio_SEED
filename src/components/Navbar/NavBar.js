@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
+// import Contact from './Contact';
+
 
 
 const NavBar = () => {
@@ -39,11 +41,13 @@ const NavBar = () => {
                     </button>
                     <div className='hidden space-x-5 lg:inline-block p-5'>
                         <NavLinks />
+                        {/* <ThemeToggler /> */}
                     </div>
 
                     <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
                         <div className='flex flex-col space-y-5'>
                             <NavLinks />
+                            {/* <ThemeToggler /> */}
                         </div>                                                
                     </div>
 
