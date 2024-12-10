@@ -80,7 +80,7 @@ const Services = () => {
                     </div> */}
             </section>
 <div>
-            <section className='bg-[#ffeff5] dark:bg-gray-800 text-center lg:mt-12 lg:py-10'>
+            <section className='light:bg-[#ffeff5] dark:bg-gray-800 text-center lg:mt-12 lg:py-10'>
                 <div className="m-auto max-w-xl p-2 md:p-12 h-5/6 lg:mt-15 lg:pt-25">
                 <h1 className="text-[#eda2bf] lg:mt-15 font-black text-4xl lg:text-center"> Certifications & Training </h1>
                 <h2 className='text-gray-600 lg:mb-15 font-semibold text-2xl lg:text-center'> I hold several certifications and have undergone online training to strengthen my technical skills, including</h2>

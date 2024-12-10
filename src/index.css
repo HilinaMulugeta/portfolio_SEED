@@ -44,7 +44,7 @@ NavBar.dark{
   background-color: #2d3748; /* Dark header background */
 }
 
-dark.footer{
+Footer.dark{
   background-color: #2d3748; /* Dark footer background */
   color: #e2e8f0; /* Light text */
 }
