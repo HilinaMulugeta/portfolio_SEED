@@ -2,7 +2,7 @@
   "name": "mld",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://HilinaMulugeta.github.io/portifolio",
+  "homepage": "https://mld.ng/",
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.9.3",
     "@lottiefiles/dotlottie-web": "^0.36.1",
@@ -30,9 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b Hilina"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
