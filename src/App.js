@@ -10,7 +10,7 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
+// import DemoProduct from './pages/DemoProduct';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Hilina Mulugeta | Software engineer and Project manager.");
+  useDocTitle("Hilina Mulugeta | Frontend website developer");
 
   return (
     <>
@@ -39,7 +39,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            {/* <Route path="/get-demo" element={<DemoProduct />} />  */}
           </Routes>
         </ScrollToTop>
       </Router>

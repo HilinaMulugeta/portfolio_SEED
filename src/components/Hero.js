@@ -19,15 +19,15 @@ const Hero = () => {
                         <div className="lg:w-full flex flex-col " data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-2xl text-xl font-bold text-gray-500">                            
                             Welcome!</h1>
-                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-[#5c999e]">
-                            I’m Hilina Mulugeta, a seasoned software engineer with over 10 years of experience. </h1>
+                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-[#eda2bf]">
+                            I’m Hilina Mulugeta, a seasoned Frontend developer with a hands on experience. </h1>
                             
                             <div className="text-lg font-semibold tracking-tight mb-5 text-gray-500">
-                            My expertise covers full-stack web development, mobile app creation, and project leadership, using modern technologies like React, Next.js, Python, React Native, and Laravel. 
-                            Explore to learn more about my journey, skills, and the impactful projects I've worked on.                          
+                            My expertise covers frontend web development, Agile methodology (as a Scrum master) by using modern technologies like React.Js, Vue.Js, Next.js and Jira. 
+                            Explore to learn more about my journey, skills, and the portfolios I've worked on.                          
                                 </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                                <Link to="/contact" className="text-white bg-[#5c999e] hover:bg-[#92d4db] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                                <Link to="/contact" className="text-white bg-[#eda2bf] hover:bg-[#fae1ea] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
                                     <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                 </Link>
