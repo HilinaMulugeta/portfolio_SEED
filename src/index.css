@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=CircularXXWeb:wght@400;500&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=CircularXXWeb:wght@400;500&display=swap" rel="stylesheet"); 
 
 body {
   margin: 0;
   font-family:  sans-serif;
-}
+} 
 
 .hero {
   background: url(./images/hero-bg.svg) top center no-repeat;
