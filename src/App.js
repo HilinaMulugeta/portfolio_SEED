@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Gashaw Taye | Software engineer and Project manager.");
+  useDocTitle("Hilina Mulugeta | Software engineer and Project manager.");
 
   return (
     <>

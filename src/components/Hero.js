@@ -13,15 +13,14 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
+                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-14  p-2 md:p-12 h-full" data-aos="zoom-in">
 
-                    <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
-                        <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-2xl text-xl font-bold text-gray-500">
-                            {/* We build digital solutions to help businesses scale */}
+                    <div id='hero' className="flex flex-col lg:flex-row lg:mx-4 lg:my-28 py-18 justify-center text-center lg:text-left">
+                        <div className="lg:w-full flex flex-col " data-aos="zoom-in" data-aos-delay="200">
+                            <h1 className="mb-5 md:text-2xl text-xl font-bold text-gray-500">                            
                             Welcome!</h1>
                             <h1 className="mb-5 md:text-3xl text-2xl font-bold text-[#5c999e]">
-                            I’m Gashaw Taye, a seasoned software engineer with over 10 years of experience. </h1>
+                            I’m Hilina Mulugeta, a seasoned software engineer with over 10 years of experience. </h1>
                             
                             <div className="text-lg font-semibold tracking-tight mb-5 text-gray-500">
                             My expertise covers full-stack web development, mobile app creation, and project leadership, using modern technologies like React, Next.js, Python, React Native, and Laravel. 
@@ -42,21 +41,14 @@ const Hero = () => {
                                 </a> */}
                             </div>
                         </div>
-                        {/* HERO IMAGE  */}
-                       
-
-                       
-
-
-                        <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
+                        {/* HERO IMAGE  */}              
+                        <div className="flex lg:justify-center w-full lg:w-full" data-aos="fade-up" data-aos-delay="700">
                         <DotLottieReact
-      src="https://lottie.host/d6aa5845-56a4-47e0-86b1-593a4b25c259/vLaBjv3Oxg.json"
-      loop
-      autoplay
-    />
-                            {/* <img alt="Hero_img" className="rounded-t float-right duration-1000 w-half" src={heroImg} /> */}
-
-                        </div>
+                         src="https://lottie.host/d6aa5845-56a4-47e0-86b1-593a4b25c259/vLaBjv3Oxg.json"
+                         loop
+                         autoplay
+                        />
+                     </div>
                     </div>
                 </div>
             </div>

@@ -127,27 +127,27 @@ const DemoProduct = (props) => {
                                     id="checkbox-1" 
                                     aria-describedby="checkbox-1" 
                                     type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-[#add4d7] h-4 w-4 rounded" 
                                     value="business_management_system" onChange={handleChange}
                                  />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Business Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Digital Library</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
                                     id="checkbox-1" 
                                     aria-describedby="checkbox-1" 
                                     type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-[#add4d7] h-4 w-4 rounded"
                                     value="school_management_portal" onChange={handleChange}
                                     />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">School Management Portal</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Android and ios mobile Application</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
                                     id="checkbox-1" 
                                     aria-describedby="checkbox-1" 
                                     type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-[#add4d7] h-4 w-4 rounded" 
                                     value="payroll_management_system" onChange={handleChange}
                                 />
                                 <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Hospital Management System</label>
@@ -157,10 +157,20 @@ const DemoProduct = (props) => {
                                     id="checkbox-1" 
                                     aria-describedby="checkbox-1" 
                                     type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-[#add4d7] h-4 w-4 rounded"
                                     value="event_management_system" onChange={handleChange}
                                 />
                                 <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">COC Assessor management Portal</label>
+                            </div>
+                            <div className="flex items-center my-4">
+                                <input 
+                                    id="checkbox-1" 
+                                    aria-describedby="checkbox-1" 
+                                    type="checkbox" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-[#add4d7] h-4 w-4 rounded"
+                                    value="event_management_system" onChange={handleChange}
+                                />
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Registrar System</label>
                             </div>
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>

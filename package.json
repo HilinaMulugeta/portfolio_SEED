@@ -18,7 +18,10 @@
     "react-router-dom": "^6.2.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.0",
+    "react-slick": "^0.30.2",
     "react-transition-group": "^4.4.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14",
     "web-vitals": "^2.1.2"
   },
   "scripts": {

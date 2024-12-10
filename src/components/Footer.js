@@ -9,15 +9,14 @@ const Footer = () => {
                 <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-100 border-t border-b py-30">
 
                     {/* Top area: Blocks */}
-                    <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
+                    <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:mx-11">
 
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-[#4a7d81] p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-3xl mb-4 text-[#4a7d81]">Gashaw Taye</h3>
+                            <h3 className="font-bold text-3xl mb-4 text-[#4a7d81]">Hilina Mulugeta</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5 className='font-semibold'>Software Engineer & project manager</h5>
-                                <p>Bole road</p>
+                                <h5 className='font-semibold'>Frontend Developer and SCRUM Master</h5>
                                 <p>Addis Ababa, Ethiopia</p>
                             </div>
                         </div>
@@ -28,13 +27,13 @@ const Footer = () => {
                         <h6 className="text-[#4a7d81] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
+                            <HashLink to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Services</HashLink>
+                            <HashLink to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Services</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
+                            <HashLink to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>                            
                         </ul>
                     </div>
@@ -44,22 +43,22 @@ const Footer = () => {
                         <h6 className="text-[#4a7d81] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <Link to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
+                            <Link to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
+                            <Link to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
+                            <Link to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#4a7d81] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
+                            <Link to="#" className="lg:text-[#4a7d81] md:text-gray-100 hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
                         </li>
                         </ul>
                     </div>
 
                     {/* 4th block */}
-                    <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-[#4a7d81]">
+                    <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase lg:text-[#4a7d81] md:text-gray-100">
                         <div className="text-xl mb-6">
                             Social Media Links.
                         </div>
@@ -97,7 +96,7 @@ const Footer = () => {
                         to="#"
                         className=" hover:text-gray-600"
                     >
-                       Gashaw Taye
+                       Hilina Mulugeta
                     </HashLink>. All rights reserved.
                     </div>
                 </div>
