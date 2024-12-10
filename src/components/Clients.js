@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
 import NEXT from '../images/clients/NEXT.jpeg';
 import JIRA from '../images/clients/JIRA.jpeg';
 import HTML from '../images/clients/HTML.png';
@@ -21,7 +21,7 @@ const clientImage = {
 
 const Clients = () => {
     const settings = {
-        dots: true,
+        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,

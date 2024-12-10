@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=CircularXXWeb:wght@400;500&display=swap" rel="stylesheet"); 
+/* @import url("https://fonts.googleapis.com/css2?family=CircularXXWeb:wght@400;500&display=swap" rel="stylesheet");  */
 
 body {
   margin: 0;
-  font-family: 'CircularXXWeb', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 } 
 
 .hero {
@@ -72,5 +72,64 @@ button.dark {
   transform: scale(1.1);
 }
 
+/* Basic slider container styling */
+.slick-slider {
+  position: relative;
+  display: block;
+  user-select: none;
+  touch-action: pan-y;
+}
 
+/* Slide styles */
+.slick-slide {
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Custom navigation arrows */
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  background-color: #eda2bf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+/* Remove default font-based arrow icons */
+.slick-prev:before,
+.slick-next:before {
+  content: ''; /* Remove default icons */
+}
+
+/* Custom dots */
+.slick-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #eda2bf;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+}
 
