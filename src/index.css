@@ -17,7 +17,12 @@ body {
 .footer {
   background-color:#f9eff3 ;
   background-size: cover;
+  
 }
+
+
+
+
 
 .cta {
    background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)), url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=3648&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) fixed center center;
@@ -35,6 +40,14 @@ header.dark {
   color: #e2e8f0; /* Light text */
 }
 
+NavBar.dark{
+  background-color: #2d3748; /* Dark header background */
+}
+
+dark.footer{
+  background-color: #2d3748; /* Dark footer background */
+  color: #e2e8f0; /* Light text */
+}
 button {
   background-color: #e2e8f0;
   color: #1a202c;

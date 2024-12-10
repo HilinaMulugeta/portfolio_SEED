@@ -7,6 +7,7 @@ import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import ScrollToTop from '../components/ScrollToTop';
+import Contact from './Contact';
 
 
 

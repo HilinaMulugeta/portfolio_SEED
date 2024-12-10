@@ -11,10 +11,10 @@ const NavLinks = () => {
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-[#eda2bf]" smooth to="/#services">
                 Certification
             </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-[#eda2bf]" to="/#portfolio">
+            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-[#eda2bf]" smooth to="/#portfolio">
                 Portfolio
             </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-[#eda2bf]" to="/#contact">
+            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-[#eda2bf]" smooth to="/#contact">
                 Contact Us
             </HashLink>
             <ThemeToggler />

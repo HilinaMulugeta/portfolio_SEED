@@ -31,7 +31,7 @@ const Clients = () => {
       };
     return (
         
-        <div className="mt-8 bg-gray-100">
+        <div className="mt-8 ">
             <section data-aos="fade-up">
                 <div className="my-4 py-4">
                         <h2 className="my-2 text-center text-3xl text-[#eda2bf] uppercase font-bold">My TECH STACK</h2>
@@ -41,7 +41,7 @@ const Clients = () => {
                         <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-[#eda2bf]">Some of Tech stacks  .</h2>
                     </div>
 
-                <div className="p-16 lg:bg-white justify-center">
+                <div className="p-16  justify-center">
                 <Slider {...settings}>
                     
                         <div style={clientImage} className= "mb-4 overflow-hidden flex justify-center transition-all ease-in-out opacity-80 hover:opacity-100 w-1/3">

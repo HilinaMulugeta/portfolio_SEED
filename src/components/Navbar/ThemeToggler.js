@@ -4,6 +4,8 @@ import { FaSun, FaMoon } from "react-icons/fa";
 const ThemeToggler = () => {
   // State to track the current theme
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const isDark = document.body.classList.toggle("dark");
+  localStorage.setItem("theme", isDark ? "dark" : "light");
 
   useEffect(() => {
     // Get saved theme from localStorage and apply it

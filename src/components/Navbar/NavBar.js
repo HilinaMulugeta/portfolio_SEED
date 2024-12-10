@@ -22,7 +22,7 @@ const NavBar = () => {
     }, [top]);
 
     return (
-        <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
+        <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'light:bg-white shadow-lg dark:bg-gray-800 dark:shadow-gray-900'}`}>
             <div className="flex flex-row py-2">
                 <div className="flex flex-row md:px-12 md:ml-12 md:mr-0  items-center text-center font-semibold w-full lg:w-full">
                     <HashLink smooth to="/#hero"><h1 className="font-bold text-2xl font-mono text-[#b54a73]">Hilina Mulugeta</h1></HashLink>

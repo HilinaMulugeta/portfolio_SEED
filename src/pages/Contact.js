@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import NavBar from '../components/Navbar/NavBar';
-import Footer from '../components/Footer';
+// import NavBar from '../components/Navbar/NavBar';
+// import Footer from '../components/Footer';
 import {useDocTitle} from '../components/CustomHook';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import axios from 'axios';
@@ -81,7 +81,8 @@ const Contact = () => {
             {/* <div>
                 <NavBar />
             </div> */}
-            <div id='contact' className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24 ">
+            <div id='contact'>
+                <div className="flex justify-center items-center mt-8 w-full  py-12 lg:py-24 " id='contact'>
 
                  
                 <div className="container mx-auto my-8 px-4 lg:px-20 " data-aos="zoom-in">
@@ -90,7 +91,7 @@ const Contact = () => {
                         
                 <form onSubmit={sendEmail}>
 
-                    <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-half lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+                    <div className="w-full  p-8 my-4 md:px-12 lg:w-half lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                     <DotLottieReact
                          src="https://lottie.host/dc306ebb-735f-48d6-a321-0bf56853a75a/QlIC1dGkZi.lottie"
                          loop
@@ -231,6 +232,7 @@ const Contact = () => {
                 </div>
             </div> 
             {/* <Footer /> */}
+            </div>
         </>
 
 
