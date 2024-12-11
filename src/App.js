@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Hilina Mulugeta | Frontend website developer");
+  useDocTitle("Hilina Mulugeta| Frontend website developer");
 
   return (
     <>
