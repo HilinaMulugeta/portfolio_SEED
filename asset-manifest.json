@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_SEED/static/css/main.54d4be3b.css",
-    "main.js": "/portfolio_SEED/static/js/main.1e1979c4.js",
+    "main.js": "/portfolio_SEED/static/js/main.c2dc9768.js",
     "static/media/crop1.jpg": "/portfolio_SEED/static/media/crop1.f6e6e882fb3b396d8263.jpg",
     "static/media/MesratGigEconomy.jpeg": "/portfolio_SEED/static/media/MesratGigEconomy.396e0563ebc9d4d2de42.jpeg",
     "static/media/PostmanApI.jpeg": "/portfolio_SEED/static/media/PostmanApI.f87514602ac17c67dab4.jpeg",
@@ -10,10 +10,10 @@
     "index.html": "/portfolio_SEED/index.html",
     "static/media/hero-bg.svg": "/portfolio_SEED/static/media/hero-bg.b085a03c460db294e222.svg",
     "main.54d4be3b.css.map": "/portfolio_SEED/static/css/main.54d4be3b.css.map",
-    "main.1e1979c4.js.map": "/portfolio_SEED/static/js/main.1e1979c4.js.map"
+    "main.c2dc9768.js.map": "/portfolio_SEED/static/js/main.c2dc9768.js.map"
   },
   "entrypoints": [
     "static/css/main.54d4be3b.css",
-    "static/js/main.1e1979c4.js"
+    "static/js/main.c2dc9768.js"
   ]
 }
