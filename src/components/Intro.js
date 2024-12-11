@@ -10,12 +10,12 @@ const Intro = () => {
 <div  id='about'>
                
                 
-                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-14  p-2 md:p-12 h-full" data-aos="zoom-in">
+                <div className=" overflow-hidden mx-24 mt-8 lg:m-14  p-2 md:p-12 h-full" data-aos="zoom-in">
 
                     <div id='about' className="flex flex-col lg:flex-row lg:mx-4 lg:my-28 py-18 justify-center text-center lg:text-left">
                           {/* HERO IMAGE  */}              
                           
-                        <div className="space-x-0 md:space-x-2 lg:w-60% flex flex-col mr-4 lg:mr-8 lg:justify-center " data-aos="zoom-in" data-aos-delay="200">
+                        <div className="space-x-0 md:space-x-2 lg:w-50%  mr-4 lg:mr-8 lg:justify-center " data-aos="zoom-in" data-aos-delay="200">
                             
                             <h1 className="mb-5 md:text-3xl text-2xl font-bold text-[#eda2bf]">Educational Background</h1>
                             

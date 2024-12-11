@@ -2,7 +2,7 @@
   "name": "mld",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/HilinaMulugeta/portfolio_SEED/",
+  "homepage": "https://HilinaMulugeta.github.io/portfolio_SEED",
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.9.3",
     "@lottiefiles/dotlottie-web": "^0.36.1",
@@ -12,6 +12,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.24.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^6.2.0",
     "notiflix": "^3.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -32,6 +33,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +45,8 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
     ],
     "development": [
       "last 1 chrome version",
@@ -53,7 +56,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "gh-pages": "^6.2.0",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.7"
   }
